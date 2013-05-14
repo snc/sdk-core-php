@@ -1,10 +1,10 @@
 <?php
-
+use PayPal\Auth\Openid\PPOpenIdUserinfo;
 /**
  * Test class for PPOpenIdUserinfo.
  *
  */
-class PPOpenIdUserinfoTest extends PHPUnit_Framework_TestCase {
+class PPOpenIdUserinfoTest extends \PHPUnit_Framework_TestCase {
 	
 
 	/**

@@ -1,10 +1,10 @@
 <?php
-
+use PayPal\Core\PPLoggingManager;
 /**
  * Test class for PPLoggingManager.
  *
  */
-class PPLoggingManagerTest extends PHPUnit_Framework_TestCase
+class PPLoggingManagerTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @var PPLoggingManager

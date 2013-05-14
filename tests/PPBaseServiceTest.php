@@ -1,10 +1,10 @@
 <?php
-
+use PayPal\Core\PPBaseService;
 /**
  * Test class for PPBaseService.
  *
  */
-class PPBaseServiceTest extends PHPUnit_Framework_TestCase
+class PPBaseServiceTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @var PPBaseService

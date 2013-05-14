@@ -1,9 +1,10 @@
 <?php
+use PayPal\Core\PPCredentialManager;
 /**
  * Test class for PPCredentialManager.
  *
  */
-class PPCredentialManagerTest extends PHPUnit_Framework_TestCase
+class PPCredentialManagerTest extends \PHPUnit_Framework_TestCase
 {
 	/**
 	 * @var PPCredentialManager
@@ -78,7 +79,7 @@ class PPCredentialManagerTest extends PHPUnit_Framework_TestCase
 	 */
 	public function testGetInvalidCredentialObject()
 	{
-		$this->setExpectedException('PPInvalidCredentialException');
+		$this->setExpectedException('PayPal\Exception\PPInvalidCredentialException');
 		$cred = $this->object->getCredentialObject('invalid_biz_api1.gmail.com');
 	}
 		

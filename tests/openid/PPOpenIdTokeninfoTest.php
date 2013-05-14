@@ -1,9 +1,10 @@
 <?php 
+use PayPal\Auth\Openid\PPOpenIdTokeninfo;
 /**
  * Test class for PPOpenIdTokeninfo.
  *
  */
-class PPOpenIdTokeninfoTest extends PHPUnit_Framework_TestCase {
+class PPOpenIdTokeninfoTest extends \PHPUnit_Framework_TestCase {
 	
 	public $token;
 

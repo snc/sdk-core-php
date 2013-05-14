@@ -1,9 +1,10 @@
 <?php 
+use PayPal\Auth\Openid\PPOpenIdAddress;
 /**
  * Test class for PPOpenIdAddress.
  *
  */
-class PPOpenIdAddressTest extends PHPUnit_Framework_TestCase {
+class PPOpenIdAddressTest extends \PHPUnit_Framework_TestCase {
 	
 	public $addr;
 
